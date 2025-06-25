@@ -8,7 +8,7 @@ import pickle
 
 ##load the model
 
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.h5',compile=False)
 
 #load the encoders and scalars
 
